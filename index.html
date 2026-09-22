@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CineMatch | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+  <div class="container"><a class="navbar-brand fw-bold" href="index.html">🎬 CineMatch</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <nav id="nav" class="collapse navbar-collapse"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li><li class="nav-item"><a class="nav-link" href="milista.html">Mi lista <span class="badge text-bg-danger" id="countBadge">0</span></a></li></ul></nav>
+  </div>
+</header>
+<main>
+<section class="hero py-5"><div class="container py-4"><div class="row align-items-center g-4"><div class="col-lg-7"><p class="text-danger fw-bold mb-2">DESCUBRE TU PRÓXIMA PELÍCULA</p><h1 class="display-4 fw-bold">Menos tiempo buscando.<br>Más tiempo disfrutando.</h1><p class="lead text-light-emphasis">Busca películas, consulta sus datos principales y guarda tus favoritas en un solo lugar.</p>
+<form id="searchForm" class="d-flex gap-2 mt-4"><input id="searchInput" class="form-control form-control-lg" placeholder="Busca una película..." aria-label="Buscar película"><button class="btn btn-danger btn-lg">Buscar</button></form>
+</div><div class="col-lg-5 text-center"><div class="hero-card">🍿<div class="small mt-2">Tu próxima película te está esperando</div></div></div></div></div></section>
+<section class="container py-5"><div class="d-flex justify-content-between align-items-center mb-3"><div><h2 class="fw-bold">Películas destacadas</h2><p class="text-secondary mb-0" id="resultText">Explora algunas opciones para empezar.</p></div></div><div id="movieGrid" class="row g-4"></div></section>
+</main>
+<footer class="py-4 bg-dark text-secondary"><div class="container text-center">CineMatch · Proyecto académico EBC · Fase 2</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="js/app.js"></script>
+</body></html>
