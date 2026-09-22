@@ -24,7 +24,7 @@ const movies = [
         genre: ["Crimen", "Drama"],
         rating: 7.7,
         description: "Batman investiga una serie de crímenes mientras descubre una red de corrupción relacionada con el pasado de Ciudad Gótica.",
-        poster: "img/batman.jpg"
+        poster: "batman.jpg"
     },
     {
         id: 4,
